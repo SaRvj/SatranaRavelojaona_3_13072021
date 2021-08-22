@@ -1,5 +1,25 @@
-body {
-  background: blue;
+html, body {
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flex {
+  display: flex;
+}
+
+ul {
+  align-items: flex-start;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
