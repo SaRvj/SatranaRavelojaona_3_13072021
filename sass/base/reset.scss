@@ -1,0 +1,26 @@
+
+html{
+    width: auto;
+    margin: auto;
+    max-width: 1440px;
+}
+
+body {
+    margin: 0em 4em;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.flex {
+    display: flex;
+}
