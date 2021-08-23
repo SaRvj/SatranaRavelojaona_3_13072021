@@ -1,6 +1,18 @@
-html, body {
-  font-family: "Roboto", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap");
+html {
+  width: auto;
   margin: auto;
+}
+
+body {
+  margin: 0em 4em;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+ul {
+  list-style-type: none;
 }
 
 a {
@@ -12,14 +24,38 @@ a {
   display: flex;
 }
 
-ul {
-  align-items: flex-start;
-  padding: 0;
+/*les couleurs de la page*/
+html, body {
+  font-family: "Raleway", sans-serif;
 }
 
-li {
-  list-style-type: none;
-  display: flex;
+.white {
+  color: white;
+}
+
+/*footer*/
+.footer {
+  background-color: #353535;
+  padding: 25px;
+  margin-left: 15px;
+}
+.footer h3 {
+  font-size: 24px;
+  font-family: "Shrikhand", cursive;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-left: 40px;
+}
+.footer a {
+  color: white;
+}
+.footer i {
+  margin-right: 20px;
+  color: white;
+}
+.footer li {
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
