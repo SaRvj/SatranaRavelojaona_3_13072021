@@ -2,7 +2,6 @@
 html{
     width: auto;
     margin: auto;
-    max-width: 1440px;
 }
 
 body {
@@ -13,8 +12,6 @@ body {
 
 ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
 
 a {
@@ -24,3 +21,10 @@ a {
 .flex {
     display: flex;
 }
+
+/*les couleurs de la page*/
+$color-primary: #9356DC;
+$color-secondary: #FF79DA;
+$color-tertiary: #99E2D0;
+
+$colorwhite: white;
