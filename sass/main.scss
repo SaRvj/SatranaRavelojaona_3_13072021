@@ -5,6 +5,11 @@
 @import "./layouts/footer.scss", "./layouts/countain.scss", "./layouts/header.scss";
 
 /*classes générales*/
+
+*{
+    box-sizing: border-box;
+}
+
 .flex {
     display: flex;
 }

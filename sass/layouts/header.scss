@@ -14,6 +14,7 @@
     }
     &_Bord{
         border: none;
+        background-color:transparent;
     }
     &_Search{
         height: 50px;
@@ -23,8 +24,15 @@
         padding-left: 40px;
     }
     &_iconBorder{
-        margin: 15px 0 0 25px;
+        margin: 0 0 0 25px;
 
+    }
+    &_border{
+        background-color: #eaeaea;
+        text-align: center;
+        padding: 15px 0 15px 0;
+        font-weight: 700;
+        box-shadow: inset 0px 2px 5px 0px #c4c3c0;
     }
 }
 
