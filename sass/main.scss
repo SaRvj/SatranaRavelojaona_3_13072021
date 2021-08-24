@@ -21,6 +21,11 @@ justify-content: space-around;
 align-items: center;
 }
 
+.flexBetween{
+    display: flex;
+    justify-content: space-between;
+}
+
 .decorationNone{
 text-decoration: none;
 }
@@ -42,3 +47,6 @@ text-decoration: none;
     flex-direction: column;
     justify-content: space-between;
 }
+
+
+/*accueil*/
