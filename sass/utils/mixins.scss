@@ -1,3 +1,7 @@
-@mixin name {
-    
+@mixin gradient-color {
+    background-image: linear-gradient(to right, $color-secondary, $color-primary) 
+}
+
+@mixin shadow {
+    box-shadow: 2px 2px 10px $color-shadow;
 }
