@@ -2,24 +2,29 @@
 .footer{
     background-color: #353535;
     padding: 25px;
-    margin-left: 15px;
+    margin: auto;
     &_logo{
         font-size: 24px;
         font-family: 'Shrikhand', cursive;
-        color: $colorwhite;
+        color: $color-white;
         margin-top: 10px;
         margin-bottom: 15px;
         padding-left: 40px;
     }
     &_txt{
-        color: $colorwhite;
+        color: $color-white;
     }
     &_icon{
+        margin-right: 0;
+        color: $color-white;
         margin-right: 20px;
-        color: $colorwhite;
     }
     &_List{
         margin-bottom: 10px;
+        
+    }
+    ul{
+        margin-left: 40px;
     }
 }
 

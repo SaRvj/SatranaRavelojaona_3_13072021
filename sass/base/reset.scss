@@ -1,11 +1,13 @@
 
 html{
     width: auto;
-    margin: auto;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    margin: auto;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
@@ -18,19 +20,52 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 .flex {
     display: flex;
-}
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
 }
 
 img{
     max-width: 100%;
     padding: 0;
 }
+
+.flexCentre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .flexAround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .flexBetween{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .decorationNone{
+    text-decoration: none;
+    }
+    
+    .flexColumnCentre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .flexColumnAround{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .flexColumnBetween{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }    
 
