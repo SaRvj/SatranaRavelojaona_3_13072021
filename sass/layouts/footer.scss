@@ -22,3 +22,20 @@
         margin-bottom: 10px;
     }
 }
+
+@media only screen and (max-width: 1024px) {
+    /* Footer - Tablet */
+    footer{
+        padding: 10px;
+        margin: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* Footer - Mobile */
+    footer {
+        padding: 0;
+        margin: 0;
+    }
+}

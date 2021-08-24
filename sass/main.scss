@@ -4,3 +4,41 @@
 @import "./utils/mixins.scss";
 @import "./layouts/footer.scss", "./layouts/countain.scss", "./layouts/header.scss";
 
+/*classes générales*/
+.flex {
+    display: flex;
+}
+
+.flexCentre{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.flexAround{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.decorationNone{
+text-decoration: none;
+}
+
+.flexColumnCentre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flexColumnAround{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.flexColumnBetween{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
