@@ -12,14 +12,17 @@
     </head>
     <body>
         <!--entete-->
-        <header class="flexColumnCentre header">
+        <header class="flexAround header">
             <div><img class="header_logo" src="./Photo/ohmyfood.png" alt="logo"></div>
-            <div class="flexCentre header_border">
-                <i class="flexCentre header_iconBorder fa-lg fas fa-map-marker-alt"><input class="header_Bord header_Search" type="search" value="Paris, Belleville"></i>
-                
-            </div>
         </header>
         <main>
+            <!--champ de recherche-->
+            <section class="flexCentre searchbar">
+                <div class="searchbar_loc">
+                    <i class="searchbar_icon fa-lg fas fa-map-marker-alt"><input class="searchbar_txt" type="search" value="Paris, Belleville"></i>
+                    
+                </div>
+            </section>
             <!--accueil-->
             <div class="flexColumnCentre">
                 <h1 class="flexCentre">Réservez le menu qui vous convient</h1>
@@ -54,7 +57,7 @@
                     </div>
                     <div>
                         <a href=""></a>
-                        <span>Nouveau</span>
+                        <span class="newbar">Nouveau</span>
                         <h2>La note enchantée</h2>
                         <p>Charonne</p></div>
                         <span><i class="far fa-heart"></i></span>

@@ -5,7 +5,7 @@ html{
 }
 
 body {
-    margin: 0em 4em;
+    margin: auto;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
@@ -22,9 +22,15 @@ a {
     display: flex;
 }
 
-/*les couleurs de la page*/
-$color-primary: #9356DC;
-$color-secondary: #FF79DA;
-$color-tertiary: #99E2D0;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
 
-$colorwhite: white;
+img{
+    max-width: 100%;
+    padding: 0;
+}
+

@@ -1,9 +1,8 @@
 /*header*/
 .header{
-    height: 150px;
+    height: 63px;
     padding: 20px 0px 10px 0px;
-    background-color: white;
-    display: flex;
+    background-color: $color-white;
     justify-content: center;
     align-items: center;
     &_logo{
@@ -11,28 +10,6 @@
         margin: 5px 5px 5px 5px;
         width: 300px;
         height: 50px;
-    }
-    &_Bord{
-        border: none;
-        background-color:transparent;
-    }
-    &_Search{
-        height: 50px;
-        width: 300px;
-        font-size: 18px;
-        color: black;
-        padding-left: 40px;
-    }
-    &_iconBorder{
-        margin: 0 0 0 25px;
-
-    }
-    &_border{
-        background-color: #eaeaea;
-        text-align: center;
-        padding: 15px 0 15px 0;
-        font-weight: 700;
-        box-shadow: inset 0px 2px 5px 0px #c4c3c0;
     }
 }
 
