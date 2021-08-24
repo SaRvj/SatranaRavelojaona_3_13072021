@@ -207,4 +207,45 @@ html, body {
   box-shadow: 2px 2px 10px #D3D3D3;
 }
 
+/*Fonctionnement*/
+.process {
+  padding: 55px 20px 45px 20px;
+}
+.process_title {
+  margin-bottom: 30px;
+}
+.process_choice {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  box-shadow: 2px 2px 10px #D3D3D3;
+  border-radius: 10px 10px 10px 10px;
+  padding: 0 70px 0 30px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.process_choice_icons {
+  margin-right: 15px;
+  color: #D3D3D3;
+}
+.process_choice_order {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: #9356DC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: -45px;
+  color: white;
+}
+.process_choice:hover {
+  background-color: #ae80e5;
+}
+.process_choice:hover :nth-child(2) {
+  color: #9356DC;
+}
+
 /*# sourceMappingURL=style.css.map */
