@@ -229,23 +229,5 @@ html, body {
   margin-right: 15px;
   color: #D3D3D3;
 }
-.process_choice_order {
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  background-color: #9356DC;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  left: -45px;
-  color: white;
-}
-.process_choice:hover {
-  background-color: #ae80e5;
-}
-.process_choice:hover :nth-child(2) {
-  color: #9356DC;
-}
 
 /*# sourceMappingURL=style.css.map */
