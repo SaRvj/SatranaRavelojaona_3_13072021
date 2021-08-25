@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap');
 @import "./base/reset.scss", "./base/typography.scss";
-@import "./utils/mixins.scss", "./utils/variables.scss";
+@import "./utils/mixins.scss", "./utils/variables.scss", "./utils/boucles.scss";
 @import "./layouts/footer.scss", "./layouts/countain.scss", "./layouts/header.scss";
 @import "./components/newbar.scss", "./components/button.scss";
 
@@ -116,6 +116,21 @@
     &_title{
         margin-bottom: 30px;
     }
+    &_menu{
+        position: relative;
+        height: 250px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        @include shadow;
+    }
+    &:#{$image}{
+        display: block;
+        max-height: 175px;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+        object-fit: cover;
+    }
+
 }  
 
 .imgrestaurant1{
