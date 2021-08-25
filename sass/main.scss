@@ -108,3 +108,20 @@
     }
 
 }
+
+/*restaurant*/
+.restaurant{
+    padding:  55px 20px 45px 20px;
+    background-color: #f6f6f6;
+    &_title{
+        margin-bottom: 30px;
+    }
+}  
+
+.imgrestaurant1{
+    background-image: url("./img/auberge_cannebiere.jpg");
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
