@@ -116,5 +116,12 @@
     &_title{
         margin-bottom: 30px;
     }
+    &_menu{
+        position: relative;
+        height: 250px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        @include shadow;
+    }
 }
 
