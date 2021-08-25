@@ -74,19 +74,27 @@
     &_title{
         margin-bottom: 30px;
     }
+    &_icons{
+        margin-right: 15px;
+        color: $color-darkgrey;
+    }
     &_order{
         height: 75px;
-        display: flex;
-        align-items: center;
-        background-color: #f6f6f6;
+        background-color: $color-white;
         @include shadow;
         border-radius: 10px 10px 10px 10px;
         padding: 0 70px 0 30px;
         margin-bottom: 20px;
         margin-left: 10px;
-        &_icons{
-            margin-right: 15px;
-            color: $color-shadow;
-        }
+    }
+    &_choice{
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-color: $color-primary;
+        display: inline-block;
+        position: relative;
+        left: -45px;
+        color: white;
     }
 }
