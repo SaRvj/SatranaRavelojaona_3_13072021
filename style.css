@@ -214,7 +214,7 @@ html, body {
 .process_title {
   margin-bottom: 30px;
 }
-.process_choice {
+.process_order {
   height: 75px;
   display: flex;
   align-items: center;
@@ -225,7 +225,7 @@ html, body {
   margin-bottom: 20px;
   margin-left: 10px;
 }
-.process_choice_icons {
+.process_order_icons {
   margin-right: 15px;
   color: #D3D3D3;
 }
