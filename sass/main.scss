@@ -78,23 +78,33 @@
         margin-right: 15px;
         color: $color-darkgrey;
     }
-    &_order{
-        height: 75px;
-        background-color: $color-white;
-        @include shadow;
-        border-radius: 10px 10px 10px 10px;
-        padding: 0 70px 0 30px;
-        margin-bottom: 20px;
-        margin-left: 10px;
-    }
     &_choice{
         height: 25px;
         width: 25px;
         border-radius: 50%;
         background-color: $color-primary;
         display: inline-block;
+        text-align: center;
         position: relative;
         left: -45px;
         color: white;
     }
+    &_order{
+        height: 75px;
+        display: flex;
+        align-items: center;
+        background-color: #f6f6f6;
+        @include shadow;
+        border-radius: 10px 10px 10px 10px;
+        padding: 0 70px 0 30px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        &:hover{
+            background-color: lighten($color-primary, $amount: 40%);
+        }
+        &:hover :nth-child(2){
+            color: $color-primary;
+        }
+    }
+
 }

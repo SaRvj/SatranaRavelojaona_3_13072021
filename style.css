@@ -218,24 +218,33 @@ html, body {
   margin-right: 15px;
   color: #666666;
 }
-.process_order {
-  height: 75px;
-  background-color: white;
-  box-shadow: 2px 2px 10px #D3D3D3;
-  border-radius: 10px 10px 10px 10px;
-  padding: 0 70px 0 30px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-}
 .process_choice {
   height: 25px;
   width: 25px;
   border-radius: 50%;
   background-color: #9356DC;
   display: inline-block;
+  text-align: center;
   position: relative;
   left: -45px;
   color: white;
+}
+.process_order {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  box-shadow: 2px 2px 10px #D3D3D3;
+  border-radius: 10px 10px 10px 10px;
+  padding: 0 70px 0 30px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.process_order:hover {
+  background-color: white;
+}
+.process_order:hover :nth-child(2) {
+  color: #9356DC;
 }
 
 /*# sourceMappingURL=style.css.map */
