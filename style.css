@@ -241,7 +241,7 @@ html, body {
   margin-left: 10px;
 }
 .process_order:hover {
-  background-color: white;
+  background-color: #e4d5f6;
 }
 .process_order:hover :nth-child(2) {
   color: #9356DC;

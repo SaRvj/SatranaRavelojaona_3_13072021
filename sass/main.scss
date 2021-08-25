@@ -100,7 +100,7 @@
         margin-bottom: 20px;
         margin-left: 10px;
         &:hover{
-            background-color: lighten($color-primary, $amount: 40%);
+            background-color: lighten($color-primary, $amount: 30%);
         }
         &:hover :nth-child(2){
             color: $color-primary;
