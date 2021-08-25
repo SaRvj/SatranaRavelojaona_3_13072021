@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap');
 @import "./base/reset.scss", "./base/typography.scss";
-@import "./utils/mixins.scss", "./utils/variables.scss";
+@import "./utils/mixins.scss", "./utils/variables.scss", "./utils/animation.scss";
 @import "./layouts/footer.scss", "./layouts/countain.scss", "./layouts/header.scss";
-@import "./components/newbar.scss", "./components/button.scss";
+@import "./components/newtag.scss", "./components/button.scss";
 
 /*classes générales*/
 
@@ -138,3 +138,30 @@
     
 }
 
+/*loader*/
+.loader{
+    background-color: $color-shadow;
+    height: 500px;
+    line-height: 500px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    &_quart{
+        border-radius: 50px;
+        border: 6px solid $color-primary;
+        &:after{
+            content: "";
+            position: absolute;
+            top: -6px;
+            left: -6px;
+            bottom: -6px;
+            right: -6px;
+            border-radius: 50px;
+            border: 6px solid transparent;
+            border-top-color: $color-secondary;
+            animation: spin 1s linear infinite;
+        }
+    }
+}

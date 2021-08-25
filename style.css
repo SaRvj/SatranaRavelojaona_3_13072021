@@ -72,10 +72,18 @@ img {
 }
 
 html, body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /*les couleurs de la page*/
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 /*footer*/
 .footer {
   background-color: #353535;
@@ -131,7 +139,7 @@ html, body {
   height: 50px;
 }
 
-.newbar {
+.newtag {
   display: inline-block;
   display: flex;
   align-items: center;
@@ -270,6 +278,34 @@ html, body {
   padding: 20px 15px 20px 15px;
   display: flex;
   justify-content: space-between;
+}
+
+/*loader*/
+.loader {
+  background-color: #D3D3D3;
+  height: 500px;
+  line-height: 500px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+.loader_quart {
+  border-radius: 50px;
+  border: 6px solid #9356DC;
+}
+.loader_quart:after {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  bottom: -6px;
+  right: -6px;
+  border-radius: 50px;
+  border: 6px solid transparent;
+  border-top-color: #FF79DA;
+  animation: spin 1s linear infinite;
 }
 
 /*# sourceMappingURL=style.css.map */
