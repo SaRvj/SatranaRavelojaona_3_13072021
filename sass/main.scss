@@ -116,27 +116,5 @@
     &_title{
         margin-bottom: 30px;
     }
-    &_menu{
-        position: relative;
-        height: 250px;
-        margin-bottom: 20px;
-        border-radius: 10px;
-        @include shadow;
-    }
-    &:#{$image}{
-        display: block;
-        max-height: 175px;
-        width: 100%;
-        border-radius: 10px 10px 0 0;
-        object-fit: cover;
-    }
-
-}  
-
-.imgrestaurant1{
-    background-image: url("./img/auberge_cannebiere.jpg");
-    height: 120px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0 0;
 }
+
