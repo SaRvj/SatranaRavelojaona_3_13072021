@@ -101,9 +101,6 @@ html, body {
 .footer_List {
   margin-bottom: 10px;
 }
-.footer ul {
-  margin-left: 40px;
-}
 
 @media only screen and (max-width: 1024px) {
   /* Footer - Tablet */
