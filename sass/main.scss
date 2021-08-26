@@ -144,6 +144,10 @@
         display: inline-block;
         margin: 1em 2em;
     }
+    .restaurant_desc{
+        margin-bottom: 0;
+        display: flex; /*à voir*/
+    }
 }
 
 /*loader*/
