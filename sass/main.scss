@@ -147,17 +147,17 @@
     background-color:$color-shadow;
     position: fixed;
     z-index: 1;
-    opacity: 1;
+    opacity: 0.5;
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: loader 1s;
+    animation: loader 2s;
     animation-fill-mode: both;
     &_quart{
         border-top: 10px solid $color-primary;
         border-bottom: 10px solid $color-secondary;
-        border-left: 10px solid $color-tertiary;
-        border-right: 10px solid $color-tertiary;
+        border-left: 10px solid $color-fourth;
+        border-right: 10px solid $color-fourth;
         border-radius: 50%;
         width: 100px;
         height: 100px;
