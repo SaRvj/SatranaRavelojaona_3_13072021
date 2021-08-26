@@ -138,6 +138,14 @@
     
 }
 
+@media only screen and (min-width: 1200px){
+    .restaurant_menu{
+        width: 45%;
+        display: inline-block;
+        margin: 1em 2em;
+    }
+}
+
 /*loader*/
 .loader{
     width: 100%;

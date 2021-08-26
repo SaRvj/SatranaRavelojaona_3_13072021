@@ -76,6 +76,10 @@ html, body {
   font-family: "Roboto", sans-serif;
 }
 
+* {
+  font-size: 16px;
+}
+
 /*les couleurs de la page*/
 @keyframes spin {
   0% {
@@ -309,6 +313,13 @@ html, body {
   justify-content: space-between;
 }
 
+@media only screen and (min-width: 1200px) {
+  .restaurant_menu {
+    width: 45%;
+    display: inline-block;
+    margin: 1em 2em;
+  }
+}
 /*loader*/
 .loader {
   width: 100%;
