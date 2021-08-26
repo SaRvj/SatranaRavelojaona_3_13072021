@@ -84,6 +84,15 @@ html, body {
     transform: rotate(360deg);
   }
 }
+/*pour les anciens navigateurs*/
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
 /*footer*/
 .footer {
   background-color: #353535;
@@ -282,30 +291,24 @@ html, body {
 
 /*loader*/
 .loader {
-  background-color: #D3D3D3;
-  height: 500px;
-  line-height: 500px;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-}
-.loader_quart {
-  border-radius: 50px;
-  border: 6px solid #9356DC;
-}
-.loader_quart:after {
-  content: "";
+  border-top: 10px solid #9356DC;
+  border-bottom: 10px solid #FF79DA;
+  border-left: 10px solid #99E2D0;
+  border-right: 10px solid #99E2D0;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 2s linear infinite;
+  -o-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  /*placement loader au milieu de la page*/
+  margin: auto;
+  /*centré horizontalement*/
   position: absolute;
-  top: -6px;
-  left: -6px;
-  bottom: -6px;
-  right: -6px;
-  border-radius: 50px;
-  border: 6px solid transparent;
-  border-top-color: #FF79DA;
-  animation: spin 1s linear infinite;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
