@@ -93,6 +93,25 @@ html, body {
     -webkit-transform: rotate(360deg);
   }
 }
+/*pour faire disparaitre le loader*/
+@keyframes loader {
+  0% {
+    background-color: #c4c3c0;
+  }
+  25% {
+    background-color: #c4c3c0;
+  }
+  50% {
+    background-color: #c4c3c0;
+  }
+  80% {
+    background-color: rgba(196, 195, 192, 0.5);
+  }
+  100% {
+    background-color: rgba(196, 195, 192, 0.5);
+    visibility: hidden;
+  }
+}
 /*footer*/
 .footer {
   background-color: #353535;
@@ -291,6 +310,21 @@ html, body {
 
 /*loader*/
 .loader {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #D3D3D3;
+  position: fixed;
+  z-index: 1;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: loader 1s;
+  animation-fill-mode: both;
+}
+.loader_quart {
   border-top: 10px solid #9356DC;
   border-bottom: 10px solid #FF79DA;
   border-left: 10px solid #99E2D0;
