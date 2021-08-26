@@ -1,0 +1,30 @@
+@keyframes spin{
+    0%{ transform: rotate(0deg);}
+    100%{ transform: rotate(360deg);}
+}
+
+/*pour les anciens navigateurs*/
+@-webkit-keyframes spin{
+    0%{ -webkit-transform: rotate(0deg);}
+    100%{ -webkit-transform: rotate(360deg);}
+}
+
+/*pour faire disparaitre le loader*/
+@keyframes loader{
+    0%{
+        background-color: rgba(196,195,192,1);
+    }
+    25%{
+        background-color:rgba(196,195,192,1);;
+    }
+    50%{
+        background-color:rgba(196,195,192,1);
+    }
+    80%{
+        background-color:rgba(196,195,192,0.5);
+    }
+    100%{
+        background-color:rgba(196,195,192,0.5);
+        visibility: hidden;
+    }
+}
