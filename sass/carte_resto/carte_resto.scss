@@ -76,7 +76,7 @@
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
-            &--hover{  /*texte qui ne s'affiche pas en entier et suivi de ...*/
+            &--plus{  /*texte qui ne s'affiche pas en entier et suivi de ...*/
                 white-space: nowrap;
                 overflow: hidden;
                 text-overflow: ellipsis;
@@ -97,8 +97,16 @@
             align-items: center;
             justify-content: center;
             transition: all 0.7s ease-in-out;
+            &:hover :nth-child(3) {
+                opacity: 1;
+                margin-right: 0px;
+            }
+            &:hover .check_icons{
+                opacity: 1;
+                transform: rotate(-360deg);
+            }
         }
     }
     }
-    
 }
+

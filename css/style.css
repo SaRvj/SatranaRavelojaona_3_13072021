@@ -188,6 +188,15 @@ html, body {
   top: 15px;
 }
 
+/*animation icon check*/
+.check_icon {
+  color: white;
+  font-size: 20px;
+  opacity: 0;
+  transform: rotate(0deg);
+  transition: all 0.7s ease-in-out;
+}
+
 html {
   width: auto;
   margin: 0;
@@ -381,7 +390,7 @@ html, body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.menu_header_card_text--hover {
+.menu_header_card_text--plus {
   /*texte qui ne s'affiche pas en entier et suivi de ...*/
   white-space: nowrap;
   overflow: hidden;
@@ -403,6 +412,14 @@ html, body {
   align-items: center;
   justify-content: center;
   transition: all 0.7s ease-in-out;
+}
+.menu_header_card_check:hover :nth-child(3) {
+  opacity: 1;
+  margin-right: 0px;
+}
+.menu_header_card_check:hover .check_icons {
+  opacity: 1;
+  transform: rotate(-360deg);
 }
 
 /*classes générales*/
