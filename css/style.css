@@ -317,6 +317,31 @@ html, body {
   font-size: 20px;
 }
 
+/*image carte*/
+.card_img {
+  max-height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*menu des cartes*/
+.card_container {
+  margin-top: -30px;
+  position: relative;
+  border-radius: 30px 30px 0 0;
+  background-color: #e6e6e6;
+  padding: 35px 15px 80px 15px;
+}
+.card_container_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+.card_container_header_title {
+  font-family: "Shrikhand", sans-serif;
+}
+
 /*classes générales*/
 /*champ de recherche*/
 .searchbar {
