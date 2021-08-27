@@ -71,6 +71,33 @@
         animation-timing-function: cubic-bezier(.57,-0.3,.36,1.2);
         transform: scale(0);
         animation-fill-mode: both;
+        &_text{
+            width: 90%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            &--hover{  /*texte qui ne s'affiche pas en entier et suivi de ...*/
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+        &_price{
+            margin-left: 10px;
+        }
+        &_check{ /*pour la cloche qui tourne*/
+            height: 70px;
+            width: 60px;
+            opacity: 0;
+            background-color: $color-tertiary;
+            margin-left: 25px;
+            margin-right: -70px;
+            border-radius: 0 10px 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.7s ease-in-out;
+        }
     }
     }
     

@@ -375,6 +375,35 @@ html, body {
   transform: scale(0);
   animation-fill-mode: both;
 }
+.menu_header_card_text {
+  width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.menu_header_card_text--hover {
+  /*texte qui ne s'affiche pas en entier et suivi de ...*/
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.menu_header_card_price {
+  margin-left: 10px;
+}
+.menu_header_card_check {
+  /*pour la cloche qui tourne*/
+  height: 70px;
+  width: 60px;
+  opacity: 0;
+  background-color: #99E2D0;
+  margin-left: 25px;
+  margin-right: -70px;
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.7s ease-in-out;
+}
 
 /*classes générales*/
 /*champ de recherche*/
