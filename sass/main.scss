@@ -106,7 +106,19 @@
             color: $color-primary;
         }
     }
+}
 
+@media only screen and (min-width: 1200px){
+    .process_container ul{
+        display: flex;
+        width: 95%;
+        justify-content: space-around;
+        margin: 0;
+    }
+
+    .process_order{
+        padding: 0 30px 0 30px;
+    }
 }
 
 /*restaurant*/
@@ -140,15 +152,13 @@
 
 @media only screen and (min-width: 1200px){
     .restaurant_menu{
-        width: 45%;
+        width: 44%;
         display: inline-block;
         margin: 1em 2em;
     }
-    .restaurant_desc{
-        margin-bottom: 0;
-        display: flex; /*à voir*/
-    }
 }
+
+
 
 /*loader*/
 .loader{

@@ -77,7 +77,7 @@ html, body {
 }
 
 * {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /*les couleurs de la page*/
@@ -285,6 +285,18 @@ html, body {
   color: #9356DC;
 }
 
+@media only screen and (min-width: 1200px) {
+  .process_container ul {
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+    margin: 0;
+  }
+
+  .process_order {
+    padding: 0 30px 0 30px;
+  }
+}
 /*restaurant*/
 .restaurant {
   padding: 55px 20px 45px 20px;
@@ -315,15 +327,9 @@ html, body {
 
 @media only screen and (min-width: 1200px) {
   .restaurant_menu {
-    width: 45%;
+    width: 44%;
     display: inline-block;
     margin: 1em 2em;
-  }
-
-  .restaurant_desc {
-    margin-bottom: 0;
-    display: flex;
-    /*à voir*/
   }
 }
 /*loader*/
