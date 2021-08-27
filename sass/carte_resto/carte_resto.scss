@@ -56,6 +56,22 @@
             animation-fill-mode: both;
             transform: scale(0);
         }
+    &_card{
+        height: 70px;
+        width: 100%;
+        padding-left: 10px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        overflow: hidden;
+        @include shadow;
+        animation: appear 0.5s;
+        animation-timing-function: cubic-bezier(.57,-0.3,.36,1.2);
+        transform: scale(0);
+        animation-fill-mode: both;
+    }
     }
     
 }
