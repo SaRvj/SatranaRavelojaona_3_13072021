@@ -40,3 +40,22 @@
         }
     }
 }
+
+.menu{
+    padding-bottom: 40px;
+    &_header{
+        margin-bottom: 25px;
+        ::after{
+            content: "";
+            display: block;
+            margin-top: 5px;
+            width: 40px;
+            height: 3px;
+            background-color: $color-tertiary;
+            animation: progress 2s;
+            animation-fill-mode: both;
+            transform: scale(0);
+        }
+    }
+    
+}

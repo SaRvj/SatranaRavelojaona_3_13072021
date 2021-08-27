@@ -342,6 +342,24 @@ html, body {
   font-family: "Shrikhand", sans-serif;
 }
 
+.menu {
+  padding-bottom: 40px;
+}
+.menu_header {
+  margin-bottom: 25px;
+}
+.menu_header ::after {
+  content: "";
+  display: block;
+  margin-top: 5px;
+  width: 40px;
+  height: 3px;
+  background-color: #99E2D0;
+  animation: progress 2s;
+  animation-fill-mode: both;
+  transform: scale(0);
+}
+
 /*classes générales*/
 /*champ de recherche*/
 .searchbar {
