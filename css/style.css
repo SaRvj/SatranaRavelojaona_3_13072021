@@ -324,6 +324,9 @@ html, body {
   display: flex;
   justify-content: space-between;
 }
+.restaurant_container {
+  width: auto;
+}
 
 @media only screen and (min-width: 1200px) {
   .restaurant_menu {
