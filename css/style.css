@@ -145,6 +145,15 @@ html, body {
   animation-delay: 0.9s;
 }
 
+/*pour souligner les titres du menu: entrees plats desserts*/
+@keyframes underlign {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
 /*footer*/
 .footer {
   background-color: #353535;
@@ -385,6 +394,15 @@ html, body {
   animation-delay: 0.9s;
 }
 
+/*pour souligner les titres du menu: entrees plats desserts*/
+@keyframes underlign {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
 .btnexplo {
   display: block;
   width: max-content;
@@ -466,7 +484,7 @@ html, body {
   width: 40px;
   height: 3px;
   background-color: #99E2D0;
-  animation: progress 2s;
+  animation: underlign 2s;
   animation-fill-mode: both;
   transform: scale(0);
 }

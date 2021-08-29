@@ -56,3 +56,13 @@
 .time4{
     animation-delay: 0.9s;
 }
+
+/*pour souligner les titres du menu: entrees plats desserts*/
+@keyframes underlign{
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
