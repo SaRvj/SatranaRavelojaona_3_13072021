@@ -79,7 +79,7 @@ html, body {
 }
 
 * {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /*les couleurs de la page*/
@@ -302,7 +302,7 @@ html, body {
 }
 
 * {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /*les couleurs de la page*/
@@ -417,6 +417,85 @@ html, body {
 }
 .card_container_header_title {
   font-family: "Shrikhand", sans-serif;
+}
+
+.menu {
+  padding-bottom: 40px;
+}
+.menu_header {
+  margin-bottom: 25px;
+}
+.menu_header ::after {
+  content: "";
+  display: block;
+  margin-top: 5px;
+  width: 40px;
+  height: 3px;
+  background-color: #99E2D0;
+  animation: progress 2s;
+  animation-fill-mode: both;
+  transform: scale(0);
+}
+.menu_card {
+  height: 70px;
+  width: 100%;
+  padding-left: 10px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px #D3D3D3;
+  animation: appearance 0.5s;
+  animation-timing-function: cubic-bezier(0.57, -0.3, 0.36, 1.2);
+  transform: scale(0);
+  animation-fill-mode: both;
+}
+.menu_card_text {
+  width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.menu_card_text--plus {
+  /*texte qui ne s'affiche pas en entier et suivi de ...*/
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.menu_card_price {
+  margin-left: 10px;
+}
+.menu_card_check {
+  /*pour la cloche qui tourne*/
+  height: 70px;
+  width: 60px;
+  opacity: 0;
+  background-color: #99E2D0;
+  margin-left: 25px;
+  margin-right: -70px;
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.7s ease-in-out;
+}
+.menu_card_check:hover :nth-child(3) {
+  opacity: 1;
+  margin-right: 0px;
+}
+.menu_card_check:hover .check_icons {
+  opacity: 1;
+  transform: rotate(-360deg);
+}
+
+.check_icon {
+  color: white;
+  font-size: 20px;
+  opacity: 0;
+  transform: rotate(0deg);
+  transition: all 0.7s ease-in-out;
 }
 
 @media screen and (min-width: 1200px) {

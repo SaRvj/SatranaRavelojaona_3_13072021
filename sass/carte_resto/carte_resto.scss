@@ -43,6 +43,83 @@
     }
 }
 
+.menu{
+    padding-bottom: 40px;
+    &_header{
+        margin-bottom: 25px;
+        ::after{
+            content: "";
+            display: block;
+            margin-top: 5px;
+            width: 40px;
+            height: 3px;
+            background-color: $color-tertiary;
+            animation: progress 2s;
+            animation-fill-mode: both;
+            transform: scale(0);
+        }
+    }
+    &_card{
+        height: 70px;
+        width: 100%;
+        padding-left: 10px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        overflow: hidden;
+        @include shadow;
+        animation: appearance 0.5s;
+        animation-timing-function: cubic-bezier(.57,-0.3,.36,1.2);
+        transform: scale(0);
+        animation-fill-mode: both;
+        &_text{
+            width: 90%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            &--plus{  /*texte qui ne s'affiche pas en entier et suivi de ...*/
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+        &_price{
+            margin-left: 10px;
+        }
+        &_check{ /*pour la cloche qui tourne*/
+            height: 70px;
+            width: 60px;
+            opacity: 0;
+            background-color: $color-tertiary;
+            margin-left: 25px;
+            margin-right: -70px;
+            border-radius: 0 10px 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.7s ease-in-out;
+            &:hover :nth-child(3) {
+                opacity: 1;
+                margin-right: 0px;
+            }
+            &:hover .check_icons{
+                opacity: 1;
+                transform: rotate(-360deg);
+            }
+        }
+    }
+}
+
+.check_icon{
+    color: $color-white;
+    font-size: 20px;
+    opacity: 0;
+    transform: rotate(0deg);
+    transition: all 0.7s ease-in-out;
+}
+
 @media screen and (min-width: 1200px) {
     .menu{
         width: 25%;

@@ -28,3 +28,13 @@
         visibility: hidden;
     }
 }
+
+/*pour faire apparaitre les plats de la carte progressivement*/
+@keyframes appearance{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
