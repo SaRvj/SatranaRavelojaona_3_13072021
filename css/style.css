@@ -417,7 +417,7 @@ html, body {
   animation-fill-mode: both;
   transform: scale(0);
 }
-.menu_header_card {
+.menu_card {
   height: 70px;
   width: 100%;
   padding-left: 10px;
@@ -433,22 +433,22 @@ html, body {
   transform: scale(0);
   animation-fill-mode: both;
 }
-.menu_header_card_text {
+.menu_card_text {
   width: 90%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.menu_header_card_text--plus {
+.menu_card_text--plus {
   /*texte qui ne s'affiche pas en entier et suivi de ...*/
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.menu_header_card_price {
+.menu_card_price {
   margin-left: 10px;
 }
-.menu_header_card_check {
+.menu_card_check {
   /*pour la cloche qui tourne*/
   height: 70px;
   width: 60px;
@@ -462,11 +462,11 @@ html, body {
   justify-content: center;
   transition: all 0.7s ease-in-out;
 }
-.menu_header_card_check:hover :nth-child(3) {
+.menu_card_check:hover :nth-child(3) {
   opacity: 1;
   margin-right: 0px;
 }
-.menu_header_card_check:hover .check_icons {
+.menu_card_check:hover .check_icons {
   opacity: 1;
   transform: rotate(-360deg);
 }
