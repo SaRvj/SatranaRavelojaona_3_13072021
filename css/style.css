@@ -128,23 +128,6 @@ html, body {
     transform: scale(1);
   }
 }
-/*temps d'apparition des cartes du menu*/
-.time1 {
-  animation-delay: 0.1s;
-}
-
-.time2 {
-  animation-delay: 0.3s;
-}
-
-.time3 {
-  animation-delay: 0.6s;
-}
-
-.time4 {
-  animation-delay: 0.9s;
-}
-
 /*pour souligner les titres du menu: entrees plats desserts*/
 @keyframes underlign {
   0% {
@@ -377,23 +360,6 @@ html, body {
     transform: scale(1);
   }
 }
-/*temps d'apparition des cartes du menu*/
-.time1 {
-  animation-delay: 0.1s;
-}
-
-.time2 {
-  animation-delay: 0.3s;
-}
-
-.time3 {
-  animation-delay: 0.6s;
-}
-
-.time4 {
-  animation-delay: 0.9s;
-}
-
 /*pour souligner les titres du menu: entrees plats desserts*/
 @keyframes underlign {
   0% {
@@ -533,21 +499,30 @@ html, body {
   justify-content: center;
   transition: all 0.7s ease-in-out;
 }
-.menu_card_check:hover :nth-child(3) {
+.menu_card:hover :nth-child(3) {
   opacity: 1;
   margin-right: 0px;
 }
-.menu_card_check:hover .check_icons {
+.menu_card:hover .check_icons {
   opacity: 1;
   transform: rotate(-360deg);
 }
 
-.check_icon {
-  color: white;
-  font-size: 20px;
-  opacity: 0;
-  transform: rotate(0deg);
-  transition: all 0.7s ease-in-out;
+/*temps d'apparition des cartes du menu*/
+.time1 {
+  animation-delay: 0.1s;
+}
+
+.time2 {
+  animation-delay: 0.3s;
+}
+
+.time3 {
+  animation-delay: 0.6s;
+}
+
+.time4 {
+  animation-delay: 0.9s;
 }
 
 @media screen and (min-width: 1200px) {

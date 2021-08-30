@@ -100,25 +100,35 @@
             align-items: center;
             justify-content: center;
             transition: all 0.7s ease-in-out;
-            &:hover :nth-child(3) {
-                opacity: 1;
-                margin-right: 0px;
-            }
-            &:hover .check_icons{
-                opacity: 1;
-                transform: rotate(-360deg);
-            }
+        }
+        &:hover :nth-child(3) {
+            opacity: 1;
+            margin-right: 0px;
+        }
+        &:hover .check_icons{
+            opacity: 1;
+            transform: rotate(-360deg);
         }
     }
 }
 
-.check_icon{
-    color: $color-white;
-    font-size: 20px;
-    opacity: 0;
-    transform: rotate(0deg);
-    transition: all 0.7s ease-in-out;
+/*temps d'apparition des cartes du menu*/
+.time1{
+    animation-delay: 0.1s;
 }
+
+.time2{
+    animation-delay: 0.3s;
+}
+
+.time3{
+    animation-delay: 0.6s;
+}
+
+.time4{
+    animation-delay: 0.9s;
+}
+
 
 @media screen and (min-width: 1200px) {
     .menu{
