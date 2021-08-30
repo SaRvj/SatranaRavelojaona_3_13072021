@@ -150,3 +150,18 @@
         justify-content: space-around;
     }
 }
+
+
+/*animation des coeurs*/
+.Tcolor{
+    font-size: 20px;
+    color: black;
+    fill: transparent;
+    cursor: pointer;
+    &:hover{
+        animation: transformcolor ease-out;
+        background: linear-gradient(to bottom, $color-primary, $color-secondary);
+        background-clip: text;
+        font-weight: bold;
+    }
+}

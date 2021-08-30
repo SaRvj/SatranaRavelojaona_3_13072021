@@ -137,6 +137,15 @@ html, body {
     transform: scaleX(1);
   }
 }
+/*animation pour coloration coeur*/
+@keyframes transformcolor {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*footer*/
 .footer {
   background-color: #353535;
@@ -369,6 +378,15 @@ html, body {
     transform: scaleX(1);
   }
 }
+/*animation pour coloration coeur*/
+@keyframes transformcolor {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .btnexplo {
   display: block;
   width: max-content;
@@ -545,6 +563,20 @@ html, body {
     justify-content: space-around;
   }
 }
+/*animation des coeurs*/
+.Tcolor {
+  font-size: 20px;
+  color: black;
+  fill: transparent;
+  cursor: pointer;
+}
+.Tcolor:hover {
+  animation: transformcolor ease-out;
+  background: linear-gradient(to bottom, #9356DC, #FF79DA);
+  background-clip: text;
+  font-weight: bold;
+}
+
 /*classes générales*/
 /*champ de recherche*/
 .searchbar {
