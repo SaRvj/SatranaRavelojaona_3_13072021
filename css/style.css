@@ -230,7 +230,7 @@ html, body {
 .check_icon {
   color: white;
   font-size: 20px;
-  opacity: 0;
+  opacity: 1;
   transform: rotate(0deg);
   transition: all 0.7s ease-in-out;
 }
@@ -393,7 +393,7 @@ html, body {
 .check_icon {
   color: white;
   font-size: 20px;
-  opacity: 0;
+  opacity: 1;
   transform: rotate(0deg);
   transition: all 0.7s ease-in-out;
 }
