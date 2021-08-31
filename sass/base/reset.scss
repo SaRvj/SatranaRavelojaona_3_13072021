@@ -37,38 +37,38 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    }
-    
-    .flexAround{
+}
+
+.flexAround{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    }
-    
-    .flexBetween{
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .decorationNone{
+}
+
+.flexBetween{
+    display: flex;
+    justify-content: space-between;
+}
+
+.decorationNone{
     text-decoration: none;
-    }
+}
     
-    .flexColumnCentre{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+.flexColumnCentre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flexColumnAround{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
     
-    .flexColumnAround{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-    
-    .flexColumnBetween{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }    
+.flexColumnBetween{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
