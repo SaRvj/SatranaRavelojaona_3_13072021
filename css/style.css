@@ -84,6 +84,15 @@ html, body {
   font-size: 14px;
 }
 
+h1 {
+  font-size: 30px;
+  font-family: "Shrikhand", cursive;
+}
+
+h2 {
+  font-size: 24px;
+}
+
 /*les couleurs de la page*/
 @keyframes spin {
   0% {
@@ -343,6 +352,15 @@ html, body {
 
 * {
   font-size: 14px;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: "Shrikhand", cursive;
+}
+
+h2 {
+  font-size: 24px;
 }
 
 /*les couleurs de la page*/
