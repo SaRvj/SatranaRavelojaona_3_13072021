@@ -1,0 +1,12 @@
+/*animation des coeurs*/
+.Tcolor{
+    cursor: pointer;
+    &:hover{
+        animation: transformcolor 0.3s ease-in-out;
+        background: linear-gradient(to bottom, $color-primary, $color-secondary);
+        font-weight: bold;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

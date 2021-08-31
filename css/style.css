@@ -144,6 +144,9 @@ html, body {
   0% {
     opacity: 0;
   }
+  50% {
+    opacity: 0.5;
+  }
   100% {
     opacity: 1;
   }
@@ -387,6 +390,9 @@ html, body {
   0% {
     opacity: 0;
   }
+  50% {
+    opacity: 0.5;
+  }
   100% {
     opacity: 1;
   }
@@ -567,20 +573,6 @@ html, body {
     justify-content: space-around;
   }
 }
-/*animation des coeurs*/
-.Tcolor {
-  font-size: 20px;
-  color: black;
-  fill: transparent;
-  cursor: pointer;
-}
-.Tcolor:hover {
-  animation: transformcolor ease-out;
-  background: linear-gradient(to bottom, #9356DC, #FF79DA);
-  background-clip: text;
-  font-weight: bold;
-}
-
 /*classes générales*/
 /*champ de recherche*/
 .searchbar {
