@@ -249,6 +249,21 @@ html, body {
   transition: all 0.7s ease-in-out;
 }
 
+/*animation des coeurs*/
+.Tcolor {
+  color: black;
+  cursor: pointer;
+}
+.Tcolor:hover {
+  animation: transformcolor 0.3s ease-in-out;
+  background: -webkit-linear-gradient(to bottom, #9356DC, #FF79DA);
+  font-weight: bold;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
+}
+
 html {
   width: auto;
   margin: 0;
