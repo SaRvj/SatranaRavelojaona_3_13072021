@@ -255,13 +255,13 @@ html, body {
   cursor: pointer;
 }
 .Tcolor:hover {
-  animation: transformcolor 0.3s ease-in-out;
+  animation: transformcolor 1s ease-in-out;
   background: -webkit-linear-gradient(to bottom, #9356DC, #FF79DA);
+  background: linear-gradient(to bottom, #9356DC, #FF79DA);
   font-weight: bold;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  opacity: 1;
 }
 
 html {
