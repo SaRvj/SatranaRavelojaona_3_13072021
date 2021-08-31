@@ -90,7 +90,7 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 27px;
 }
 
 /*les couleurs de la page*/
@@ -360,7 +360,7 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 27px;
 }
 
 /*les couleurs de la page*/
@@ -643,6 +643,8 @@ h2 {
 }
 .home_subtilte {
   margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: lighter;
 }
 
 /*Fonctionnement*/
