@@ -24,9 +24,9 @@ a {
     color: inherit;
 }
 
-.flex {
+/*.flex {
     display: flex;
-}
+}*/
 
 img{
     max-width: 100%;
@@ -45,14 +45,14 @@ img{
     align-items: center;
 }
 
-.flexBetween{
+/*.flexBetween{
     display: flex;
     justify-content: space-between;
 }
 
 .decorationNone{
     text-decoration: none;
-}
+}*/
     
 .flexColumnCentre{
     display: flex;
@@ -60,7 +60,7 @@ img{
     justify-content: center;
 }
 
-.flexColumnAround{
+/*.flexColumnAround{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -70,7 +70,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+}*/
 
 .marginBetween{
     margin-bottom: 5px;
