@@ -708,7 +708,7 @@ h2 {
 @media only screen and (min-width: 1200px) {
   .process_container ul {
     display: flex;
-    width: 95%;
+    width: 100%;
     justify-content: space-around;
     margin: 0;
   }
