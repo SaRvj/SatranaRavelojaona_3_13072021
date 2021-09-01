@@ -137,9 +137,13 @@
 
 @media only screen and (min-width: 1200px){
     .restaurant_menu{
-        width: 44%;
+        width: 90%;
         display: inline-block;
         margin: 1em 2em;
+    }
+    .restaurant_container{
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
 }
 
