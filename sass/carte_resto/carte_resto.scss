@@ -80,7 +80,7 @@
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
-            &--plus{  /*texte qui ne s'affiche pas en entier et suivi de ...*/
+            &--plus{  /*texte tronqué*/
                 white-space: nowrap;
                 overflow: hidden;
                 text-overflow: ellipsis;

@@ -565,7 +565,7 @@ h2 {
   text-overflow: ellipsis;
 }
 .menu_card_text--plus {
-  /*texte qui ne s'affiche pas en entier et suivi de ...*/
+  /*texte tronqué*/
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
