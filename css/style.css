@@ -103,6 +103,7 @@ h2 {
 }
 
 /*les couleurs de la page*/
+/*loader*/
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -382,6 +383,7 @@ h2 {
 }
 
 /*les couleurs de la page*/
+/*loader*/
 @keyframes spin {
   0% {
     transform: rotate(0deg);
