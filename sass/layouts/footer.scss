@@ -3,6 +3,7 @@
     background-color: #353535;
     padding: 25px 10px;
     margin: auto;
+    //display: inline;
     &_logo{
         font-size: 24px;
         font-family: 'Shrikhand', cursive;
@@ -39,5 +40,15 @@
     footer {
         padding: 0;
         margin: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    footer ul{
+        display: inline-flex;
+        justify-content: space-between;
+        width: 88%;
+        padding: 0;
+        margin: 14px;
     }
 }
