@@ -790,9 +790,9 @@ h2 {
 
 @media only screen and (min-width: 1200px) {
   .restaurant_menu {
-    width: 90%;
+    width: 95%;
     display: inline-block;
-    margin: 1em 2em;
+    margin: 1em 1em;
   }
 
   .restaurant_container {
