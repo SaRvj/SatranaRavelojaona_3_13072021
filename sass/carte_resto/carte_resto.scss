@@ -74,7 +74,7 @@
         animation: appearance 0.5s;
         /*animation-timing-function: cubic-bezier(.57,-0.3,.36,1.2);*/
         /*animation-timing-function: cubic-bezier(0.250, 0.460, 0.450, 0.940);*/
-        @for $i from 1 through (4) {
+        @for $i from 1 through 4 {
             &:nth-of-type(#{$i}) {
                 animation: appearance 800ms 200ms *$i forwards;
             }
