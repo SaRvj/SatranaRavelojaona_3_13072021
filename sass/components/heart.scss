@@ -4,7 +4,6 @@
     cursor: pointer;
     &:hover{
         animation: transformcolor 1s ease-in-out;
-        //background: -webkit-linear-gradient(to bottom, $color-primary, $color-secondary);
         background: linear-gradient(170deg, $color-primary, $color-secondary);
         top: 0;
         left: 0;

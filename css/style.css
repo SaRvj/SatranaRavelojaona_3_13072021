@@ -567,8 +567,7 @@ h2 {
   margin-bottom: 15px;
   overflow: hidden;
   box-shadow: 2px 2px 10px #D3D3D3;
-  /*animation-timing-function: cubic-bezier(.57,-0.3,.36,1.2);*/
-  /*animation-timing-function: cubic-bezier(0.250, 0.460, 0.450, 0.940);*/
+  /*temps d'apparition des cartes du menu*/
   /*transform: scale(0);*/
   animation-fill-mode: both;
 }
@@ -622,22 +621,6 @@ h2 {
   transform: rotate(-360deg);
 }
 
-/*temps d'apparition des cartes du menu*/
-/*.time1{
-    animation-delay: 0.1s;
-}
-
-.time2{
-    animation-delay: 0.3s;
-}
-
-.time3{
-    animation-delay: 0.6s;
-}
-
-.time4{
-    animation-delay: 0.9s;
-}*/
 /*version desktop des menus*/
 @media screen and (min-width: 1200px) {
   .menu {
