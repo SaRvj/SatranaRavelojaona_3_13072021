@@ -16,17 +16,12 @@ body {
 ul {
     list-style-type: none;
     padding: inherit;
-    /*padding-left: 14px;*/
 }
 
 a {
     text-decoration: none;
     color: inherit;
 }
-
-/*.flex {
-    display: flex;
-}*/
 
 img{
     max-width: 100%;
@@ -45,32 +40,12 @@ img{
     align-items: center;
 }
 
-/*.flexBetween{
-    display: flex;
-    justify-content: space-between;
-}
 
-.decorationNone{
-    text-decoration: none;
-}*/
-    
 .flexColumnCentre{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
-/*.flexColumnAround{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-    
-.flexColumnBetween{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}*/
 
 .marginBetween{
     margin-bottom: 5px;
