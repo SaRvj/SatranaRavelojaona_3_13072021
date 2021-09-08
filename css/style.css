@@ -63,6 +63,7 @@ img {
 }
 
 .fa-lg {
+  line-height: inherit;
   line-height: 1em;
 }
 
@@ -338,6 +339,7 @@ img {
 }
 
 .fa-lg {
+  line-height: inherit;
   line-height: 1em;
 }
 
