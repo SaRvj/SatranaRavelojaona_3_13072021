@@ -63,8 +63,9 @@ img {
 }
 
 .fa-lg {
-  line-height: inherit;
+  font-size: 1.33333em;
   line-height: 1em;
+  vertical-align: -0.0667em;
 }
 
 html, body {
@@ -339,8 +340,9 @@ img {
 }
 
 .fa-lg {
-  line-height: inherit;
+  font-size: 1.33333em;
   line-height: 1em;
+  vertical-align: -0.0667em;
 }
 
 html, body {
