@@ -259,11 +259,11 @@ h2 {
 }
 
 /*animation des coeurs*/
-.Tcolor {
+.heartColor {
   color: black;
   cursor: pointer;
 }
-.Tcolor:hover {
+.heartColor:hover {
   animation: transformcolor 1s ease-in-out;
   background: linear-gradient(170deg, #9356DC, #FF79DA);
   top: 0;
