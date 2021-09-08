@@ -62,12 +62,6 @@ img {
   margin: 0px 0px 5px 0px;
 }
 
-.fa-lg {
-  font-size: 1.33333em;
-  line-height: 1em;
-  vertical-align: -0.0667em;
-}
-
 html, body {
   font-family: "Roboto", sans-serif;
 }
@@ -280,6 +274,12 @@ h2 {
   -webkit-text-fill-color: transparent;
 }
 
+.heartSize {
+  font-size: 1.33333em;
+  line-height: 1em;
+  vertical-align: -0.0667em;
+}
+
 html {
   width: auto;
   margin: 0;
@@ -337,12 +337,6 @@ img {
 
 .marginBetween2 {
   margin: 0px 0px 5px 0px;
-}
-
-.fa-lg {
-  font-size: 1.33333em;
-  line-height: 1em;
-  vertical-align: -0.0667em;
 }
 
 html, body {
