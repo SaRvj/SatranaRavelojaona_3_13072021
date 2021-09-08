@@ -62,6 +62,10 @@ img {
   margin: 0px 0px 5px 0px;
 }
 
+.fa-lg {
+  line-height: 1em;
+}
+
 html, body {
   font-family: "Roboto", sans-serif;
 }
@@ -331,6 +335,10 @@ img {
 
 .marginBetween2 {
   margin: 0px 0px 5px 0px;
+}
+
+.fa-lg {
+  line-height: 1em;
 }
 
 html, body {
