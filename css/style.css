@@ -655,13 +655,14 @@ h2 {
 }
 .process_choice {
   height: 25px;
-  width: 25px;
+  width: 35px;
   border-radius: 50%;
   background-color: #9356DC;
   display: inline-block;
   text-align: center;
   position: relative;
   left: -45px;
+  padding-top: 10px;
   color: white;
 }
 .process_order {
