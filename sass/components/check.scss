@@ -1,8 +1,15 @@
 /*animation icon check*/ 
 .check_icon{
-    color: $color-white;
+    //color: $color-white;
     font-size: 20px;
     opacity: 1;
     transform: rotate(0deg);
     transition: all 0.7s ease-in-out;
 }
+
+/*.fa-check-circle{
+    background: $color-tertiary;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: $color-white;
+}*/

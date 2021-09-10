@@ -251,13 +251,18 @@ h2 {
 
 /*animation icon check*/
 .check_icon {
-  color: white;
   font-size: 20px;
   opacity: 1;
   transform: rotate(0deg);
   transition: all 0.7s ease-in-out;
 }
 
+/*.fa-check-circle{
+    background: $color-tertiary;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: $color-white;
+}*/
 /*animation des coeurs*/
 .heartColor {
   color: black;
@@ -451,13 +456,18 @@ h2 {
 
 /*animation icon check*/
 .check_icon {
-  color: white;
   font-size: 20px;
   opacity: 1;
   transform: rotate(0deg);
   transition: all 0.7s ease-in-out;
 }
 
+/*.fa-check-circle{
+    background: $color-tertiary;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: $color-white;
+}*/
 /*header*/
 .card_header {
   padding: 20px 25px 10px 25px;
