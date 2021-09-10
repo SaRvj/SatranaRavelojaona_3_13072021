@@ -569,11 +569,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 330ms ease-in-out;
-}
-.menu_card_check .fa-check-circle {
-  color: white;
-  transition: transform 500ms ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 .menu_card:hover :nth-child(3) {
   opacity: 1;
