@@ -558,7 +558,7 @@ h2 {
   margin-left: 10px;
 }
 .menu_card_check {
-  /*pour la cloche qui tourne*/
+  /*pour la coche qui tourne*/
   height: 70px;
   width: 60px;
   opacity: 0;
@@ -574,6 +574,8 @@ h2 {
 .menu_card:hover :nth-child(3) {
   opacity: 1;
   margin-right: 0px;
+  transform: translate(-0.01px);
+  width: 90px;
 }
 .menu_card:hover .fa-check-circle {
   opacity: 1;

@@ -93,7 +93,7 @@
         &_price{
             margin-left: 10px;
         }
-        &_check{ /*pour la cloche qui tourne*/
+        &_check{ /*pour la coche qui tourne*/
             height: 70px;
             width: 60px;
             opacity: 0;
@@ -110,6 +110,8 @@
         &:hover :nth-child(3){
             opacity: 1;
             margin-right: 0px;
+            transform: translate(-0.01px);
+            width: 90px;
         }
         &:hover .fa-check-circle{
             opacity: 1;
