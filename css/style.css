@@ -575,7 +575,7 @@ h2 {
   opacity: 1;
   margin-right: 0px;
 }
-.menu_card:hover .check_icons {
+.menu_card:hover .fa-check-circle {
   opacity: 1;
   transform: rotate(-360deg);
 }
