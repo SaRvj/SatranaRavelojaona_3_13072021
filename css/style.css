@@ -159,7 +159,7 @@ h2 {
   margin: auto;
 }
 .footer_logo {
-  font-size: 24px;
+  font-size: 20px;
   font-family: "Shrikhand", cursive;
   color: white;
   margin-top: 10px;
@@ -489,14 +489,14 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 45px;
+  margin-bottom: 20px;
 }
 .card_container_header_title {
   font-family: "Shrikhand", sans-serif;
 }
 
 .menu {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 .menu_header {
   margin-bottom: 25px;
@@ -591,13 +591,16 @@ h2 {
     margin-left: auto;
     margin-right: auto;
   }
-}
-@media screen and (min-width: 1200px) {
+
   .container {
     display: flex;
     width: 100%;
     margin: 0;
     justify-content: space-around;
+  }
+
+  .card_img {
+    max-height: 350px;
   }
 }
 /*classes générales*/

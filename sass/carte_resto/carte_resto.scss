@@ -36,7 +36,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 45px;
+        margin-bottom: 20px;
         &_title{
         font-family: $title;
         }
@@ -44,7 +44,7 @@
 }
 
 .menu{
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     &_header{
         margin-bottom: 25px;
         ::after{
@@ -131,15 +131,16 @@
         margin-left: auto;
         margin-right: auto;
     }
-}
-
-@media screen and (min-width: 1200px){
     .container{
         display: flex;
         width: 100%;
         margin: 0;
         justify-content: space-around;
     }
+    .card_img{
+        max-height: 350px;
+    }
 }
+
 
 
